@@ -5,27 +5,38 @@ export type SkillGroup = {
 
 export const skills: SkillGroup[] = [
   {
-    group: "Techniques",
+    group: "Laboratory Techniques",
     items: [
-      "XPS",
-      "SEM",
-      "AFM",
-      "XRD",
-      "Ellipsometry",
-      "Raman spectroscopy",
+      "Polymer & organic synthesis",
+      "Surface coatings (spin, dip, spray, doctor blading, PVD)",
+      "Microscopy (OM, AFM, SEM, FIB-SEM, TEM)",
+      "Spectroscopy (XPS, SXI-XPS, UPS, NMR, FTIR, UV-VIS, GC-MS, ARUPS)",
+      "Contact angle · Ellipsometry · WLI · DSC",
+      "Photolithography & CHic-chemistry crosslinking",
+      "Nanotribological friction measurements",
+      "Solar cell fabrication & characterization (I-V, EQE, IQE)",
     ],
   },
   {
-    group: "Software & Computation",
-    items: ["Python", "MATLAB", "Origin", "CasaXPS", "ImageJ"],
+    group: "Software & IT",
+    items: [
+      "IGOR Pro",
+      "ImageJ / Fiji",
+      "Gwyddion",
+      "ChemDraw",
+      "LaTeX",
+      "Inkscape",
+      "MS Office",
+    ],
   },
   {
     group: "Transferable",
     items: [
-      "Project management",
-      "Science communication",
-      "Teaching & supervision",
-      "Technical writing",
+      "Scientific writing & reporting",
+      "Data analysis & presentation",
+      "Student supervision & teaching",
+      "Collaborative & independent research",
+      "Critical thinking & problem-solving",
     ],
   },
 ];
