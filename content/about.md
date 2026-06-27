@@ -1,0 +1,3 @@
+I'm a materials scientist finishing my PhD at [University], where I work on [topic — e.g. thin-film deposition and surface characterization for energy applications].
+My research focuses on [brief description — e.g. understanding how surface chemistry governs the performance of functional coatings], combining experimental techniques with a strong interest in translating fundamental findings into real-world applications.
+I'm looking for roles where I can bring my expertise in [e.g. characterization and materials development] to an industry or research team working on [e.g. sustainable energy, semiconductor materials, or advanced coatings].
