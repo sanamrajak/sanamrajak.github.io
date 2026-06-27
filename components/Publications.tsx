@@ -21,12 +21,22 @@ export default function Publications() {
               <p className="font-medium text-stone-800 leading-snug">{pub.title}</p>
             )}
             <p className="text-sm text-stone-500">
-              {pub.authors.join(", ")}
+              {pub.authors.map((author, i) => (
+                <span key={i}>
+                  {i > 0 && ", "}
+                  {author.includes("Rajak") ? (
+                    <strong className="font-semibold text-stone-700">{author}</strong>
+                  ) : author}
+                </span>
+              ))}
             </p>
             <div className="flex items-center gap-3 mt-1">
               <span className="text-sm text-stone-400">
                 {pub.journal}, {pub.year}
               </span>
+              {pub.note && (
+                <span className="text-xs text-stone-400 italic">{pub.note}</span>
+              )}
               {pub.doi && (
                 <a
                   href={`https://doi.org/${pub.doi}`}
