@@ -7,13 +7,14 @@ export const skills: SkillGroup[] = [
   {
     group: "Laboratory Techniques",
     items: [
-      "Polymer & organic synthesis",
+      "Organic & polymer synthesis, purification (TLC, CC)",
       "Surface coatings (spin, dip, spray, doctor blading, PVD)",
+      "Surface & polymer characterization (contact angle, ellipsometry, WLI, LEED, DSC)",
+      "Photolithography & polymer crosslinking (CHic-chemistry)", 
       "Microscopy (OM, AFM, SEM, FIB-SEM, TEM)",
       "Spectroscopy (XPS, SXI-XPS, UPS, NMR, FTIR, UV-VIS, GC-MS, ARUPS)",
-      "Contact angle · Ellipsometry · WLI · DSC",
-      "Photolithography & CHic-chemistry crosslinking",
       "Nanotribological friction measurements",
+      "Photolithography & CHic-chemistry crosslinking",
       "Solar cell fabrication & characterization (I-V, EQE, IQE)",
     ],
   },
@@ -24,6 +25,7 @@ export const skills: SkillGroup[] = [
       "ImageJ / Fiji",
       "Gwyddion",
       "ChemDraw",
+      "LayoutEditor",
       "LaTeX",
       "Inkscape",
       "MS Office",
@@ -37,6 +39,15 @@ export const skills: SkillGroup[] = [
       "Student supervision & teaching",
       "Collaborative & independent research",
       "Critical thinking & problem-solving",
+    ],
+  },
+  {
+    group: "Languages",
+    items: [
+      "English (fluent)",
+      "German (B1)",
+      "Hindi (fluent)",
+      "Nepali (native)",
     ],
   },
 ];
