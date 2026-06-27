@@ -21,7 +21,7 @@ export default function Nav() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-stone-100">
+      <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-stone-100">
         <nav className="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
           <a
             href="#hero"
@@ -61,14 +61,16 @@ export default function Nav() {
 
       {/* Overlay */}
       <div
-        className={`fixed inset-0 z-50 bg-black/20 transition-opacity duration-300 ${open ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+        className="fixed inset-0 z-50 bg-black/20 transition-opacity duration-300"
+        style={{ opacity: open ? 1 : 0, pointerEvents: open ? "auto" : "none" }}
         onClick={() => setOpen(false)}
         aria-hidden="true"
       />
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 right-0 z-50 h-full w-64 bg-white shadow-xl flex flex-col transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}
+        className="fixed top-0 right-0 z-[60] h-full w-64 bg-white shadow-xl flex flex-col transition-transform duration-300"
+        style={{ transform: open ? "translateX(0)" : "translateX(100%)" }}
       >
         <div className="flex items-center justify-end px-6 h-14 border-b border-stone-100">
           <button
