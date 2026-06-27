@@ -1,3 +1,7 @@
-I'm a materials scientist finishing my PhD at [University], where I work on [topic — e.g. thin-film deposition and surface characterization for energy applications].
-My research focuses on [brief description — e.g. understanding how surface chemistry governs the performance of functional coatings], combining experimental techniques with a strong interest in translating fundamental findings into real-world applications.
-I'm looking for roles where I can bring my expertise in [e.g. characterization and materials development] to an industry or research team working on [e.g. sustainable energy, semiconductor materials, or advanced coatings].
+I'm a materials and polymer scientist finishing my PhD at the University of Freiburg's [IMTEK](https://www.imtek.uni-freiburg.de/), where I work in the Chair of Chemistry and Physics of Interfaces under Prof. Jürgen Rühe. My research is part of [ECOSENSE](https://uni-freiburg.de/ecosense/), a collaborative project developing long-term environmental sensor networks — my contribution focuses on anti-biofouling and anti-soiling coatings that keep sensor surfaces clean and functional over months of outdoor exposure.
+
+My work sits at the intersection of polymer chemistry and surface science. I design and characterize functional thin-film coatings using a range of deposition and crosslinking techniques, and evaluate their performance with methods like XPS, ellipsometry, AFM, and contact angle measurements. I enjoy the full arc from synthesis to characterization to understanding why a coating works — or doesn't.
+
+Before Freiburg, I completed my M.Sc. in Advanced Functional Materials at TU Chemnitz, where I studied exciton dynamics in organic semiconductors and gained my first hands-on experience with XPS through work on layered ferecrystalline heterostructures.
+
+I'm now looking for industry or research roles where I can apply my background in coatings, surface functionalization, and materials characterization — particularly in areas like specialty chemicals, semiconductors, sensors, or advanced materials.
