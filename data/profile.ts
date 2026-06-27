@@ -10,9 +10,9 @@ export const profile = {
     "Electrochemistry",
     "Functional coatings",
   ],
-  linkedin: "https://linkedin.com/in/placeholder",
-  orcid: "https://orcid.org/0000-0000-0000-0000",
-  scholar: "https://scholar.google.com/citations?user=placeholder",
+  linkedin: "https://www.linkedin.com/in/sanam-rajak/",
+  orcid: "https://orcid.org/0009-0004-1822-1239",
+  scholar: "https://scholar.google.com/citations?user=QmxmUboAAAAJ",
   // Email stored as char codes to avoid scraper harvesting.
   // Replace with actual address: each number is a char code, e.g. "a" = 97.
   email: [
