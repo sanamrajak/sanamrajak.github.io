@@ -13,10 +13,6 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/sanam-rajak/",
   orcid: "https://orcid.org/0009-0004-1822-1239",
   scholar: "https://scholar.google.com/citations?user=QmxmUboAAAAJ",
-  // Email stored as char codes to avoid scraper harvesting.
-  // Replace with actual address: each number is a char code, e.g. "a" = 97.
-  email: [
-    115, 97, 110, 97, 109, 64, 101, 120, 97, 109, 112, 108, 101, 46, 99, 111,
-    109,
-  ],
+  // Email encoded as btoa(rot7(address)). See ObfuscatedLink.tsx for the encoding snippet.
+  email: "emh1aHRAbGVodHdzbC5qdnQ=", // placeholder: sanam@example.com
 } as const;

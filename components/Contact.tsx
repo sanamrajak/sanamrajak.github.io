@@ -38,7 +38,7 @@ export default function Contact() {
         </li>
         <li>
           <ObfuscatedLink
-            charCodes={profile.email as unknown as number[]}
+            encoded={profile.email}
             className="text-accent hover:underline"
           />
         </li>
