@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="shrink-0">
           <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-full overflow-hidden bg-stone-200">
             <Image
-              src="/photo.svg"
+              src="/photo.jpg"
               alt={profile.name}
               width={176}
               height={176}
