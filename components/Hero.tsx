@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="flex flex-col-reverse gap-10 sm:flex-row sm:items-center sm:gap-14">
         <div className="flex-1 flex flex-col gap-3">
           <h1 className="text-4xl font-semibold tracking-tight text-stone-900">
-            {profile.name}
+            {profile.fullName}
           </h1>
           <p className="text-lg text-stone-500 font-medium">{profile.tagline}</p>
           <p className="text-sm text-stone-400">{profile.region}</p>

@@ -1,5 +1,6 @@
 export const profile = {
   name: "Sanam Rajak",
+  fullName: "Sanam Kumari Rajak",
   tagline: "Materials Scientist · PhD Candidate",
   region: "Germany",
   openTo: "Open to industry and research roles in materials science",
