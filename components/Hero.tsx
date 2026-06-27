@@ -4,8 +4,8 @@ import { profile } from "@/data/profile";
 export default function Hero() {
   return (
     <section id="hero" className="max-w-3xl mx-auto px-6">
-      <div className="flex flex-col-reverse gap-10 sm:flex-row sm:items-center sm:gap-14">
-        <div className="flex-1 flex flex-col gap-3">
+      <div className="flex flex-col-reverse items-center gap-10 sm:flex-row sm:items-center sm:gap-14">
+        <div className="flex-1 flex flex-col gap-3 items-center text-center sm:items-start sm:text-left">
           <h1 className="text-4xl font-semibold tracking-tight text-stone-900">
             {profile.fullName}
           </h1>
