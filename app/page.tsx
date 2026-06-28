@@ -18,7 +18,7 @@ export default function Home() {
         <Publications />
         <Contact />
         <footer className="max-w-3xl mx-auto px-6 py-8 border-t border-stone-100 text-xs text-stone-400">
-          © {new Date().getFullYear()} Sanam Rajak
+          © {new Date().getFullYear()} Sanam Kumari Rajak
         </footer>
       </main>
     </>
