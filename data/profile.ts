@@ -1,9 +1,9 @@
 export const profile = {
   name: "Sanam Rajak",
   fullName: "Sanam Kumari Rajak",
-  tagline: "Materials Scientist · PhD Candidate",
+  tagline: "Materials Scientist · Surface Scientist · Polymers Scientist · Coating Expert · Chemist · PhD Researcher",
   region: "Germany",
-  openTo: "Open to industry and research roles in materials science",
+  openTo: "Open to research roles in materials research",
   researchFocus: [
     "Self-cleaning surfaces",
     "Anti-fouling coatings",
