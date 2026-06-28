@@ -66,15 +66,17 @@ export default function Contact() {
             </a>
           </li>
         ))}
-        <li>
-          <ObfuscatedLink
-            encoded={profile.email}
-            className="inline-flex items-center gap-2 text-accent hover:underline"
-          >
-            <Mail size={16} />
-            <span>Email</span>
-          </ObfuscatedLink>
-        </li>
+        {profile.email && (
+          <li>
+            <ObfuscatedLink
+              encoded={profile.email}
+              className="inline-flex items-center gap-2 text-accent hover:underline"
+            >
+              <Mail size={16} />
+              <span>Email</span>
+            </ObfuscatedLink>
+          </li>
+        )}
       </ul>
     </section>
   );
