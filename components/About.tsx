@@ -13,7 +13,7 @@ export default async function About() {
     <section id="about" className="max-w-3xl mx-auto px-6 border-t border-stone-100">
       <h2 className="text-2xl font-semibold text-stone-800 mb-6">About</h2>
       <div
-        className="prose prose-stone max-w-none"
+        className="prose prose-stone text-justify max-w-none"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     </section>
