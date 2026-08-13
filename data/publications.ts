@@ -12,8 +12,8 @@ export const publications: Publication[] = [
     title: "Self-cleaning Sensor Surfaces for Long-term Environmental Monitoring",
     authors: ["S. K. Rajak", "[...]", "J. Rühe"],
     journal: "Advanced Engineering Materials",
-    year: 2025,
-    note: "Under review",
+    year: 2026,
+    note: "Accepted",
   },
   {
     title: "The ECOSENSE forest: A distributed sensor and data management system for real-time monitoring of ecosystem processes and stresses",
