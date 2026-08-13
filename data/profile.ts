@@ -12,7 +12,7 @@ export const profile = {
     "Layered heterostructures",
     "Environmental sensing",
   ],
-  linkedin: "https://www.linkedin.com/in/sanam-rajak/",
+  linkedin: "https://www.linkedin.com/in/sanamrajak",
   orcid: "https://orcid.org/0009-0004-1822-1239",
   scholar: "https://scholar.google.com/citations?user=QmxmUboAAAAJ",
   // Email encoded as btoa(rot7(address)). See ObfuscatedLink.tsx for the encoding snippet.
